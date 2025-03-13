@@ -426,7 +426,11 @@ const Page = () => {
                 <Phone className="w-5 h-5 sm:w-6 sm:h-6 text-primary flex-shrink-0" />
                 <div>
                   <h3 className="font-medium text-base sm:text-lg mb-0.5 sm:mb-1">Call Us</h3>
-                  <p className="text-sm sm:text-base text-textSecondary">+91 999-812-6775</p>
+                  <p className="text-sm sm:text-base text-textSecondary">
+                    <a href="tel:+919998126775" className="text-blue-500">
+                      +91 999-812-6775
+                    </a>
+                  </p>
                 </div>
               </div>
               <div className="flex items-start gap-3 sm:gap-4 p-2">
